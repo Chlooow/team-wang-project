@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1001,
+    "customer_id": 2001,
+    "email": "customer@example.com",
+    "financial_status": "pending",
+    "total_price": "59.00",
+    "updated_at": "2026-08-10T12:00:00"
+  },
+  {
+    "id": 1001,
+    "customer_id": 2001,
+    "email": "customer@example.com",
+    "financial_status": "paid",
+    "total_price": "59.00",
+    "updated_at": "2026-08-11T08:30:00"
+  }
+]
