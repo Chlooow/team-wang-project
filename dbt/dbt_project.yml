@@ -1,0 +1,12 @@
+name: team_wang_dbt
+version: 1.0.0
+config-version: 2
+
+profile: team_wang_dbt
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+
+models:
+  team_wang_dbt:
+    +materialized: view

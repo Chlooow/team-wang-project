@@ -1,0 +1,7 @@
+team_wang_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', '.duckdb/team_wang.duckdb') }}"
+      threads: 1
